@@ -171,5 +171,25 @@ a {
 /*Start of box three code */
 
 .boxthree {
-    background-color: blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+
+.quote {
+    width: 1000px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 24px;
 }
